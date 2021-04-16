@@ -1,0 +1,51 @@
+.breadcrumbs {
+  margin-bottom: 47px;
+}
+
+.reviews_breadcrumbs{
+  margin-bottom: 13px;
+}
+
+.breadcrumbs__list {
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumbs__item {
+  font-size: 14px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.breaudcrumbs__item:after{
+content: "/";
+width: 10px;
+display: inline-block;
+color: #9A9A9A;
+opacity: .8;
+}
+
+.breaudcrumbs__item:last-child:after{
+  display: none;
+}
+
+.breadcrumbs__item-link{
+  font-size: 14px;
+  font-weight: 300px;
+  font-style: italic;
+  color: #fff;
+}
+
+.breadcrumbs__item-link_active {
+  color: aqua;
+  opacity: .8;
+  text-decoration: none;
+}
+
+.breadcrumbs__item-link_qreen {
+  color: green;
+}
+
+.breadcrumbs_test{
+  margin-bottom: 14px;
+}

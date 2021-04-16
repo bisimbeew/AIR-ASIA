@@ -1,0 +1,23 @@
+@import url('./layout/fonts.css');
+@import url('./layout/normalize.css');
+@import url('./layout/base.css');
+
+@import url('./blocs/header.css');
+@import url('./blocs/logo.css');
+@import url('./blocs/menu.css');
+@import url('./blocs/contacts.css');
+@import url('./blocs/maincontent.css');
+@import url('./blocs/hello.css');
+@import url('./blocs/breadcrumbs.css');
+@import url('./blocs/fire.css');
+@import url('./blocs/deal\ info.css');
+@import url('./blocs/news.css');
+@import url('./blocs/about.css');
+@import url('./blocs/footer.css');
+@import url('./blocs/services.css');
+@import url('./blocs/partners.css');
+@import url('./blocs/enter.css');
+@import url('./blocs/reviews.css');
+@import url('./blocs/separator.css');
+@import url('./blocs/comments.css');
+@import url('./blocs/paginator.css');

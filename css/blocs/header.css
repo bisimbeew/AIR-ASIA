@@ -1,0 +1,61 @@
+.header__left{
+  width: 50%;
+}
+
+.header__right {
+  width: 50%;
+}
+
+
+.header {
+  padding-top: 30px;
+  margin-bottom: 119px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__left {
+  display: flex;
+}
+
+.header__right{
+  display: flex;
+}
+
+.header__right--align--right{
+  justify-content: flex-end;
+}
+
+.header__container {
+  width: 1168px;
+  position: relative;
+}
+
+.header-line {
+  min-height: 420px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  margin-left: -8px;
+}
+
+.main-page-header-line {
+  background: url(../../img/headline\ 1.jpg)  no-repeat center top;
+  background-size: cover;
+}
+
+.section__title{
+  font-size: 72px;
+  line-height: 98px;
+  font-weight: bold;
+}
+
+.title_test{
+margin-top: -88px;
+}
+
+.title_reviews{
+  margin-top: -104px;
+  margin-left: 5px;
+}

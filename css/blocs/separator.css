@@ -1,0 +1,26 @@
+.separator {
+  background: #f2f2f2 url("../../img/Rectangle.jpg") no-repeat;
+  min-height: 363px;
+  display: flex;
+  margin-top: -15px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.separator__content {
+  max-width: 50%;
+  margin-top: -10px;
+}
+
+.separator__title{
+  font-size: 48px;
+  font-weight: bold;
+  color: #FFFFFF;
+  line-height: 1.1;
+}
+
+.turist_img{
+  position: absolute;
+  top: -74px;
+  left: 618px;
+}

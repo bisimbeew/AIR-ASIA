@@ -1,0 +1,40 @@
+
+.paginator {
+  text-align: center;
+}
+
+
+.paginator--theme--black {
+  color: #000000;
+}
+
+.paginator_test{
+  margin-left: 51px;
+  margin-top: 15px;
+}
+
+
+.paginator--theme--black--reviews {
+  color: #000000;
+  margin-top: 38px;
+  margin-left: -547px;
+}
+
+.paginator--theme--black--reviews .pager__item--active .pager__link {
+  color: #fff;
+  background: #F5170E;
+}
+
+.paginator--theme--black .pager__item--active .pager__link {
+  color: #fff;
+  background: #F5170E;
+}
+
+.paginator__display, .paginator__list{
+  display: inline-flex;
+  vertical-align: middle;
+}
+
+.paginator__display{
+   margin-right: 25px;
+}

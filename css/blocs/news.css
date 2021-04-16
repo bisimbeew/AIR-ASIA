@@ -1,0 +1,117 @@
+
+.news__item {
+  width: 557px;
+  display:inline-flex;
+  vertical-align: top;
+  position: relative;
+  border-radius: 5px ;
+  overflow: hidden;
+  margin-bottom: 50px;
+ 
+}
+
+
+.news__cover {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.news__text__content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -2px;
+  padding:0px 30px ;
+  min-height: 141px;
+}
+
+.news__data {
+  font-size: 14px;
+  font-weight: normal;
+  margin-bottom: 12.5px;
+}
+
+.news__title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 3.5px;
+}
+
+.news__desc {
+  font-size: 16px;
+}
+
+.title {
+  font-size: 3.6rem;
+  font-weight: bold;
+  color:#fff ;
+  margin-bottom: 51px;
+  position: relative;
+  display: inline-flex;
+}
+
+.news{
+  margin-bottom: 146px;
+}
+
+.news__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.paginator {
+  text-align: center;
+}
+
+.paginator--theme--black {
+  color: #000000;
+}
+
+.paginator--theme--black--reviews {
+  color: #000000;
+  margin-top: 71px;
+  margin-left: -597px;
+}
+
+.paginator--theme--black--reviews .pager__item--active .pager__link {
+  color: #fff;
+  background: #F5170E;
+}
+
+.paginator--theme--black .pager__item--active .pager__link {
+  color: #fff;
+  background: #F5170E;
+}
+
+.paginator__display, .paginator__list{
+  display: inline-flex;
+  vertical-align: middle;
+}
+
+.paginator__display{
+   margin-right: 25px;
+}
+
+.pager__item {
+  display: inline-flex;
+  vertical-align: middle;
+}
+
+.pager__item--active .pager__link {
+  background:#fff;
+  color: #F5170E;
+}
+
+.pager__link {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-weight: bold;
+  line-height: 32px;
+  position: relative;
+  
+}
